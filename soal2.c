@@ -28,7 +28,7 @@ void reactor (){
                 printf("Command salah!");
         }
         if(E < L || E > R){
-            printf("GAGAL %d", i+1);
+            printf("GAGAL %d %d", i+1, E);
             return;
         }
     }
